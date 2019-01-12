@@ -30,7 +30,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  Concurrency in programs can increase the performance as opposed to serial execution. 
  - Enabling the program to deal with lots of thing at once. 
- - By combining concurrency with parallelism good performance can be achived.     
+ - By combining concurrency with parallelism good performance can be achieved.     
  
  Can make the programmer’s life harder in the sense of:
  - Introduction of heisenbugs (subtle and hard to detect bugs)
