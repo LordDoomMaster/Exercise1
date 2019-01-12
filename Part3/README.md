@@ -7,18 +7,18 @@ When answering the questions, remember to use all the resources at your disposal
 
  ### What is concurrency? What is parallelism? What's the difference?
  Concurrency: Out of order/partial order execution of different parts of an instance where the final outcome is the same.
-  Dealing with lots of things at once.
-  Handling and executing multiple task with shared resources. 
+  - Dealing with lots of things at once.
+  - Handling and executing multiple task with shared resources. 
   
  Parallelism: Multiple instances of the same task runs independently at the same time with different data. 
-  Doing lots of things at once.
+  - Doing lots of things at once.
   
  ### Why have machines become increasingly multicore in the past decade?
  Limitation in single core processors design such as:
-  Number of transistors per unit area (Problem designing transistors with size < 10 nm)
-  Limit in clock speed (Problem with heat dissipation and reduced power efficiency) 
+  - Number of transistors per unit area (Problem designing transistors with size < 10 nm)
+  - Limit in clock speed (Problem with heat dissipation and reduced power efficiency) 
  
- - Dealing with these limitations and providing increasing performance through multi-core design.  
+ Dealing with these limitations and providing increasing performance through multi-core design.  
 
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
