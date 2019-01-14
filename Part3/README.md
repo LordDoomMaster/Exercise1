@@ -10,6 +10,8 @@ When answering the questions, remember to use all the resources at your disposal
   - Dealing with lots of things at once.
   - Handling and executing multiple task with shared resources. 
   
+  - "Two events are concurrent if we cannot tell by looking at the program which will happen first"
+  
  Parallelism: Multiple instances of the same task runs independently at the same time with different data. 
   - Doing lots of things at once.
   
