@@ -12,13 +12,13 @@ i = 0
 def incrementingFunction():
    # TODO: increment i 1_000_000 times
    global i
-   for x in range(0, 1000000):
+   for j in range(0, 1000000):
        i += 1
 
 def decrementingFunction():
    # TODO: decrement i 1_000_000 times
    global i
-   for x in range(0, 1000000):
+   for j in range(0, 1000000):
        i -= 1
 
 def main():
