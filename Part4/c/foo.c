@@ -25,6 +25,7 @@ int main(){
     pthread_join(decrementingThread, NULL);
 
     printf("The magic number is: %d\n", i);
+    
     return 0;
 }
 
