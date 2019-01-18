@@ -48,13 +48,14 @@ When answering the questions, remember to use all the resources at your disposal
   - Executing some part of the process code.
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > *Your answer here*
+ - All create a new thread.
+ 
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > *Your answer here*
+ - The GIL prevents multiple threads from executing bytecodes at once. It also multithreaded programs from taking full advantage of multiprocessors systems in certain situations.
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > *Your answer here*
+- Implementing Cython which offers the ability to explicitly release the GIL around a section of code.
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > It changes the maximum number of OS threads that can execute user-level Go code simultaneously.
