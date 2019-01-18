@@ -14,12 +14,12 @@ var i = 0
 
 func incrementing() {
     //TODO: increment i 1000000 times
-    for j := 0; j < 10000; j++ { i += 1}
+    for j := 0; j < 1000000; j++ { i += 1}
 }
 
 func decrementing() {
     //TODO: decrement i 1000000 times
-    for j := 0; j < 10000; j++ { i -= 1 }
+    for j := 0; j < 1000000; j++ { i -= 1 }
 }
 
 
